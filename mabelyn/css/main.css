@@ -36,7 +36,6 @@ body {
 }
 
 p {
-  font-size:50%;
   color: #a88bfa;
   text-align: center;
   opacity: 0; /* Inicialmente, hacemos que el elemento esté invisible */
@@ -49,9 +48,9 @@ p {
   left: center;
   transform: translate(-50%, -50%);
 
-   font-family: 'Font';
-   font-weight: bold; /* Agregamos esta línea para hacer la fuente negrita */
-  
+  font-family: 'Font';
+  font-weight: bold; /* Agregamos esta línea para hacer la fuente negrita */
+  font-size:8vw;
 }
 
 @-webkit-keyframes bounce {
